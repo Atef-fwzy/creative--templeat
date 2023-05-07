@@ -1,0 +1,582 @@
+
+body{
+    width: 100%;
+    height: 200%;
+    margin: 0;
+    padding: 0;
+}
+.decoration-heit{
+    height: 60px;
+    width: 100%;
+    
+}
+.header .contant{
+   margin: auto;
+    width: 80%;
+    height: 60px;
+    
+}
+.contener{
+    background-color: #f8f8f8;
+    height: 180px;
+    margin-bottom: 100px;
+}
+.section-80{
+    width: 80%;
+    margin: auto;
+}
+.overflow{
+    overflow: hidden;
+}
+.bread{
+    float:left;
+    margin-left: 30px;
+}
+.bread ul{
+list-style: none;
+}
+.braed-h2-h2{
+    margin-top: 60px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+.bread-ul{
+    margin-left: 600px;
+}
+.bread ul li{
+    display: inline-block;
+    margin-left: 20px;
+    color: #6195ff;
+    font-size: 20px;
+    margin-top: 60px;
+    text-transform: capitalize;
+}
+.bread ul li.singel{
+    color: black;
+}
+.header{
+    position: fixed;
+    width: 100vw;
+    z-index: 7;
+    color: #fff;
+}
+.header .hh{
+    color: #fff;
+}
+.header h1{
+    float: left;
+    width: 40%;
+}
+.header ul{
+    margin: 10px 0 0 30px;
+list-style: none;
+    float: left;
+    width: 70%s;
+}
+.header ul li a{
+   color: black;
+   
+
+    text-decoration:none;
+}
+.header ul li a.ff:after{
+    content: "";
+
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: #6195ff ;
+
+}
+.header ul li a.ff:hover:after{
+  width: 100%;
+  transition: width 0.5s;
+}
+.header ul li{
+    margin: 10px 0 0 15px;
+    display: inline-block;
+}
+.header ul li .dd:after{
+    content: "";
+border-radius: 10;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #6195ff ;
+
+}
+
+.drop{
+    margin: 0 30px 0 0 ;
+    
+    border-radius: 10px;
+    padding: 0;
+    display: none;
+    padding: 0 60px 0 0;
+    letter-spacing: 5;
+    word-spacing: 2;
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    background-color:  #6195ff ;
+}
+.header ul li a:hover+.drop{
+    display: block;
+}
+.wid{
+    margin: 0 10px 0 0 ;
+}
+
+.logo{
+    margin: 10px 0 0 12px;
+}
+.header{
+    background-color:rgba(0, 0, 0, 0.1);
+    height: 60px;
+    
+}
+
+       .contner{
+
+        width: 100%;
+       
+       }
+       .conter-80{
+        width: 80%;
+        margin: auto;
+       }
+      
+       .photo-img ul li{
+        display: inline-block;
+        margin-left: 15px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+       }
+       .photo-img ul li i{
+        color: #6195ff;
+       
+       }
+       .contant-70{
+        
+        overflow: hidden;
+       }
+       .cpntner-laft,.conyner-right{
+        
+        width: 30%;
+        height: 600px;
+       
+        margin-left: 20px;
+
+float: left;
+       }
+       .cpntner-laft{
+        height: 2050px;
+        
+       
+                width: 60%;
+       }
+       .cpntner-laft img{
+        width: 100%;
+        height: 20%;
+       }
+       input.postion{
+        width: 250px;
+        height: 30px;
+        margin: 10px 10px;
+    border: none;
+    background-color: #f8f8f8;
+    background-image: url(../images/background/search.png);
+    background-repeat: no-repeat;
+    
+    }
+    
+    .decor{
+        background-color: #6195ff;
+        width: 50px;
+        height: 4px;
+        margin: 10px 20px;
+    }
+   h2.category{
+    text-transform: uppercase;
+    margin: 40px 20 10px 0px;
+   }
+   .web,.hr{
+    color:black;
+    text-transform: capitalize;
+    display: inline-block;
+  
+
+} 
+
+.hr{
+   
+    color: #6195ff;
+    margin-left: 280px;
+    margin-bottom: 10px;
+    }
+    .postion-x{
+        margin-top: 30px;
+    }
+    .web{
+        
+        height: 0;
+        width: 130px;
+        opacity: 0.8;
+        
+
+    }
+    .populare-posts{
+        text-transform: uppercase;
+        margin: 40px 0 20px  0;
+    }
+    .decor{
+        margin-left: 0;
+    }
+    h2{
+        margin-left: 0;
+    }
+    
+    
+    .text-img{
+        margin-top: 30px;
+        position: relative;
+    }
+    .postion-y{
+        right: 55px;
+        position: absolute;
+       
+    }
+    .text-img img{
+        width: 100px;
+height: 85px;
+    }
+    .text-img img, .postion-y{
+        
+        
+        display: inline-block;
+    }
+   
+    .postion-y a,p{
+        display:block;
+        
+        width: 200px;
+       
+    }
+    .postion-y a{
+        text-decoration: none;
+        color: black;
+        text-transform: capitalize;
+        opacity: 0.9;
+    }
+    
+    .conyner-right{
+       
+        height: 1300px;
+    }
+    
+    .morbi-h2
+    {
+        margin: 20px 0;
+        font-size: 28px;
+        text-transform: capitalize;
+    }
+    .morbi-desc{
+        line-height: 28px;
+        font-size: 18px;
+        opacity: 0.8;
+    }
+    
+    span.web:hover{
+        color: #6195ff;
+
+    }
+    .markting{
+        margin-top: 12px;
+        height: 800px;
+        
+    }
+    .photography{
+        margin-top: 5px;
+        width: 80px;
+        height: 30px;
+        background-color: #f8f8f8;
+    }
+    .photography{
+        display: inline-block;
+    }
+    .design1{
+        width:40px ;
+        line-height: 30px;
+        padding-left: 10px;
+    }
+    .design2{
+        width:50px ;
+        line-height: 30px;
+        padding-left: 10px;
+    }
+    .design3{
+        width:60px ;
+        line-height: 30px;
+        padding-left:10px;
+    }
+    .development1{
+
+        width:60px ;
+        line-height: 30px;
+        padding-left:18px;
+    }
+    .development2{
+        width:88px ;
+        line-height: 30px;
+        padding-left:18px;
+        margin-right: 5px;
+    }
+    .branding1{
+        width:60px ;
+        line-height: 30px;
+       
+
+    }
+    .branding2{
+        width:70px ;
+        line-height: 30px;
+        padding: 0 26px ;
+
+    }
+    .photography:hover{
+        background-color: #6195ff;
+        color: #fff;
+    }
+
+    .tags{
+        text-transform: uppercase;
+    } 
+    .decor-tags{
+        width: 50px;
+    }
+    .pro-max a i,.postion-y p{
+        
+       
+        color:#6195ff;
+    }
+    .div-markting span{
+        display: inline-block;
+    
+        color: #6195ff
+    }
+    .pro-max{
+        margin-top: 50px;
+    }
+    .postional{
+        display: inline-block;
+        width: 105px;
+        height: 35px;
+        line-height: 35px;
+        background-color: #f8f8f8;
+        margin-left: 2px;
+        text-transform: capitalize;
+    }
+    .pro-max-tags{
+        font-size: 22px;
+    }
+    .contner-masseg{
+        border: 1px solid#827f7f;
+margin-top: 30px;
+        overflow: hidden;
+    }
+    .conter-box img{
+        margin-top: 30px;
+        width: 150px;
+        height: 150px;
+    }
+    .conter-box{
+    margin:0px 0 20px 10px ;
+        float: left;
+       
+    }
+    .goe-doe {
+      
+        width: 75%;
+      
+    }
+    .goe-doe-h2,.logo{
+        display: inline-block;
+        margin-bottom: 0;
+    }
+    .goe-doe-h2{
+        font-size: 20px;
+    padding-bottom: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+    }
+    .logo ul li{
+        background-color: #6195ff;
+        width: 22px;
+        height: 20px;
+        border-radius: 4px;
+        margin-left: 5px;
+
+        
+    }
+    .logo ul {
+        margin-left: 240px;
+    }
+    .logo ul li i{
+        color: #fff;
+        line-height: 20px;
+        padding-left: 2px;
+        
+    }
+    .logo ul li i.all{
+        margin-left: 2px;
+    }
+    .font-span{
+        font-size: 18px;
+        opacity: 0.8;
+    }
+    h2.comments{
+        margin-top: 50px;
+        font-size: 25px;
+        text-transform: capitalize;
+
+    }
+    .commentss{
+        margin-top: 10px;
+        width: 40px;
+       
+    }
+    .commentse{
+        margin-top: 30px;
+        overflow: hidden;
+        border: 1px solid #bab7b7;
+        
+    }
+    .commentse:hover{
+        border: 1px solid #6195ff;
+        background-color: #dddfe3;
+    }
+    .commnent,.photo-comment{
+        float: left;
+    }
+    .commnent{
+        padding-top: 20px;
+    }
+    .photo-comment img{
+        padding: 15px;
+        width: 100px;
+        height: 100px;
+    }
+    .goe-doee{
+        text-transform: uppercase;
+        font-size: 20px;
+        margin-left: 20px;
+        padding-top: 10px;
+       
+    }
+    .ago-min{
+        text-transform: uppercase;
+        font-size: 15px;
+        margin-left: 20px;
+        opacity: 0.7;
+        margin-bottom: 5px;
+    }
+    .reply{
+        margin-left: 320px;
+        opacity: 0.9;
+        text-transform: uppercase;
+    }
+    .commentse:hover .goe-doee,.atef-fwzy{
+        color: #6195ff;
+    }
+    .atef-fwzy{
+        opacity: 0.8;
+    }
+    .ont-spann{
+        line-height: 19px;
+        opacity: 0.7;
+        width: 550px;
+        display:inline-block;
+        font-size: 18px;
+        margin-left: 20px;
+        
+    }
+    .ctgory{
+        text-decoration: none;
+        color: #6195ff;
+        opacity: 0.9;
+    }
+    .replyy {
+        margin-left: 430px;
+    }
+    .leave{
+        text-transform: none;
+        margin-top: 30px;
+    }
+    .form-inpout{
+        width: 350px;
+        height: 38px;
+        margin-top: 10px;
+        opacity: 0.8;
+        background-color: #efecec;
+        border: none;
+    }
+    .margin{
+        
+ margin-left: 20px; 
+    }
+    .textatea-inpout{
+        opacity: 0.8;
+        background-color: #efecec;
+        border: none;
+        margin-top: 20px;
+    }
+    .submit{
+        margin-top: 30px;
+        width: 110px;
+        height: 45px;
+        border: none;
+        background-color: #6195ff;
+        color: #fff;
+        text-transform: capitalize;
+    }
+    .foter
+    {
+        text-align: center;
+         background-color: #1c1d21;
+        width: 100%;
+        height: 300px;
+    }
+    .foter-list{
+        list-style: none;
+        
+        
+    }
+    .foter-list li i{
+        line-height: 45px;
+color: #fff;
+
+
+    }
+    .foter-list li
+    {
+        margin-right: 10px;
+        width: 45px;
+        height: 45px;
+        border-radius:3px ;
+        background-color: #6195ff;
+        display: inline-block;
+    }
+    .foter-logo{
+        text-transform: uppercase;
+font-size: 35px;
+padding: 60px 0 20px 0;
+color: #fff;
+margin-left: 10px;
+    }
+    .copyeright{
+        text-align: center;
+        font-size: 25px;
+    display: inline-block;
+    width: 100%;
+    }
